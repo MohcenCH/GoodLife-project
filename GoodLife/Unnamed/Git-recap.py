@@ -9,6 +9,7 @@ $ git merge <branch-name> # to merge the branch to the master branch
 $ git diff # to see the last change 
 $ git commit -m "<message here>"
 $ git add 
+$ git remote add origin https://github.com/MohcenCH/GoodLife-project # to set the repo to be able to push to it (normalment adi wsi)
 $ git push # to upload the files to github 
 $ git status # to see in which branch u r
 $ git pull # to pullout all the changes from the remote repo on github
