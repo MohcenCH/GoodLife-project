@@ -4,8 +4,15 @@ $ python3 manage.py makemigrations
 $ python3 manage.py migrate
 $ python3 manage.py createsuperuser
 
+#*************************************************************************************
 
+user = request.user # returns the current user that is logged in
 
+{{form.as_p}} # add it to the template to clean the form a little bit
+
+blank=True	# add it to the object model to be able to create the model without the object
+
+#**************************************************************************************
 # the queries thing!
 
 #***(1)Returns all customers from customer table
