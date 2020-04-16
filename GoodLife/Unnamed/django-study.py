@@ -12,7 +12,10 @@ user = request.user # returns the current user that is logged in
 
 blank=True	# add it to the object model to be able to create the model without the object
 
-#**************************************************************************************
+#*************************************************************************************
+# static , filters , password reset email ,  requires settings.py configuration
+
+# #**************************************************************************************
 # the queries thing!
 
 #***(1)Returns all customers from customer table
