@@ -1,5 +1,5 @@
 $ git config --global user.name MohcenCH
-$ git config --global user.email mohcench@gmail.com    # to link your github account with github
+$ git config --global user.email jamal9523@gmail.com    # to link your github account with github
 
 $ git init   # to initialize a file it adds a .git hidden file to track the changes
 $ git branch <branch-name> # to create a branch
