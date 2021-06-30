@@ -3,6 +3,7 @@ $ git config --global user.email jamal9523@gmail.com    # to link your github ac
 
 $ git init   # to initialize a file it adds a .git hidden file to track the changes
 $ git branch <branch-name> # to create a branch
+$ git branch # to list all the branches
 $ git checkout <branch-name> # to switch to the branch that u want to work on 
 $ git checkout -b <branch-name> # to create a branch and switch to it (normalment)
 $ git merge <branch-name> # to merge the branch to the master branch
